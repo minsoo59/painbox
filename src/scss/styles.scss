@@ -17,10 +17,9 @@ a {
 body {
   font-family: "Caladea";
   padding-top: 70px;
-}
-
-body > *:not(.footer) {
-  padding: 0 140px;
+  & > *:not(.footer) {
+    padding: 0 140px;
+  }
 }
 
 header {
