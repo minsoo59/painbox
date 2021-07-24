@@ -85,7 +85,7 @@ header {
     color: black;
     @extend %miniTitle;
     font-size: 10px;
-    transform: color 0.3s linear background 0.3s linear;
+    transition: color 0.3s linear, background 0.3s linear;
     &:hover {
       background-color: black;
       color: white;
